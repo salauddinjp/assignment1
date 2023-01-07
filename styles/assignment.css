@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+.container{
+    height: 909px;
+    position: relative;
+    text-align: center;
+    background-image: url('../images/banner/banner1.png');
+   background-size: cover;
+
+
+}
+
+
+.overlay {
+    position: absolute;
+    top: 250px;
+    left: 1050px;
+  }
+
+.title{
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    color: #151414;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+}
+
+.description{
+    width: 525px;
+    left: 845px;
+    top: 216px;
+    color: #151414;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: right;
+    margin-top: 24px;
+    line-height: 25px;
+   
+}
+
+.btn{
+    padding-left: 355px;
+}
+
+.btn-primary{
+    height: 64px;
+    border-radius: 5px;
+    background-color: #fd6e0a;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    margin-top: 40px;
+
+}
+
+.main1{
+    display: flex;
+   
+}
+
+.person-image{
+    margin-top: 70px;
+    margin-left: 70px;
+    padding-left: 150px;
+}
+
+.text{
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: 200px;
+    
+}
+
+.main1-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 200px;
+    margin-left: 60px;
+   
+}
+
+.main1-description{
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #757575;
+    width: 300px;
+    margin-left: 60px;
+
+
+}
+
+
+
+ul li{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.section-title{
+    text-align: center;
+    margin-top: 70px;
+    font-weight: 700;
+    font-size: 60px;
+}
+.service{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    height: 299px;
+    margin-left: 560px;
+}
+
+.skill-title{
+width: 200px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+margin-top: 30px;
+margin-left: -20px;
+padding-left: 10px;
+}
+
+.skill-description{
+    margin-top: 20px;
+    left: 10px;
+}
+
+.gradient2{
+    margin-left: 170px;
+    position: absolute;
+    width: 1200px;
+    height: 300px;
+    left: 230px;
+    top: 2216.3px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('../images/watch.png');
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.gradint2-title{
+    text-align: left;
+    padding-top: 40px;
+    font-size: 30px;
+    margin-left: 50px;
+    color: #ffffff;
+    width: 200px;
+}
+
+.btn-call{
+    margin-left: 50px;
+    height: 64px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    margin-top: 30px;
+    color: #f55538;
+}
+
+.image-gellary{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 350px;
+    margin-top: 500px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+   
+}
+
+
+.footer{
+    display: flex;
+     gap: 100px;
+     background: #131212;
+     padding: 100px 200px;
+     margin-top: 100px;
+}
+
+.footer-title{
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.footer-description {
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 300px;
+    line-height: 25px;   
+    margin-left: 200px;
+}
+.footer-info{
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 300px;
+    line-height: 25px;   
+    margin-left: 200px;
+}
+
+.social-icon{
+    margin-left: 200px;
+}
+
+.social-icon a{
+    text-decoration: none;
+    padding: 0 5px 5px 5px;
+}
+
+.from{
+    margin-left: 190px;
+    padding-left: 100px;
+}
+
+.from-title{
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.from input{
+    margin-bottom: 15px;
+    border: 0 solid;
+    width: 50%;
+    padding: 18px 20px;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+
+.btn-Subscribe{
+    margin-left: 50px;
+    height: 64px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+   
+    color: #f55538;
+    margin-left: 200px;
+}
